@@ -72,7 +72,6 @@ const AddActivity = (props) => {
           labelId="demo-simple-select-label"
           id="select"
           value={activity.type}
-          style={{ minWidth: "100%" }}
           name="type"
           onChange={handleChange}
         >
