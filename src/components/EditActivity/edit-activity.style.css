@@ -1,0 +1,19 @@
+.edit-btn {
+  margin-bottom: 1rem;
+  letter-spacing: 8px;
+}
+
+.edit-title {
+  transform: translateY(-0.3rem);
+}
+
+.del,
+.edit {
+  width: 7%;
+}
+
+.bg {
+  background: whitesmoke;
+  height: 38px;
+  padding: 0.2rem;
+}

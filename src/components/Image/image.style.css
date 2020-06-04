@@ -1,0 +1,25 @@
+.img {
+  width: 95vw;
+  display: grid;
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.img-title {
+  width: 100%;
+  position: absolute;
+  background: #fcfcfc;
+  border-top: 4px solid lightgrey;
+  border-bottom: 4px solid lightgrey;
+  letter-spacing: 12px;
+  word-spacing: 0.1rem;
+  top: 10%;
+  padding: 0.4rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 100;
+}

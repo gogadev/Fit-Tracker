@@ -1,0 +1,29 @@
+.dashboard {
+  text-align: center;
+}
+
+.subtitle {
+  margin: 0.5rem auto;
+  letter-spacing: 5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.user {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.user img {
+  width: 15%;
+  opacity: 0.4;
+}
+
+.mg {
+  margin: 1.5rem auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .user img {
+    width: 50%;
+  }
+}

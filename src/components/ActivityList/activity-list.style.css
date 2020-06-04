@@ -1,0 +1,42 @@
+.list {
+  border: 1px solid lightgrey;
+  margin-left: 4rem;
+  width: 25vw;
+}
+
+.activity-list {
+  letter-spacing: 4px;
+  padding: 0.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  height: 60%;
+}
+
+.category h4 {
+  text-transform: capitalize;
+  letter-spacing: 5px;
+}
+
+.category span {
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  font-weight: 100;
+}
+
+.text {
+  letter-spacing: 6px;
+  background: #fcfcfc;
+  border-bottom: 2px solid lightgrey;
+  margin-top: 0.2rem;
+}
+
+.text-img {
+  width: 70%;
+  padding: 0.3rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .list {
+    width: 64%;
+    margin-left: 7.4rem;
+  }
+}

@@ -1,0 +1,73 @@
+.workout-form {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 0;
+  margin-left: 4rem;
+  text-align: center;
+}
+
+.the-title {
+  letter-spacing: 7px;
+  color: rgba(0, 0, 0, 0.7);
+  border: 1px solid lightgrey;
+  border-bottom: 2px solid #ededed;
+  padding: 0.3rem;
+  width: 100%;
+}
+
+#select {
+  font-family: "Aguafina Script", cursive;
+  letter-spacing: 3px;
+  margin-top: 1rem;
+  padding: 0.4rem;
+  border: 1px dotted grey;
+  border-bottom: none;
+}
+
+#menu {
+  font-family: "Aguafina Script", cursive;
+  letter-spacing: 3px;
+}
+
+.workout-form input,
+.workout {
+  width: 25vw;
+  margin: 0.3rem auto;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.workout-form input {
+  border: none;
+  border-bottom: 1px dotted grey;
+  outline: lightgrey;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+#slider {
+  color: grey;
+}
+
+.duration {
+  width: 50%;
+  margin-top: 0.5rem;
+  opacity: 0.3;
+}
+
+.image {
+  width: 18%;
+  opacity: 0.4;
+  margin-top: 0.3rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .the-title {
+    margin-top: 1.5rem;
+  }
+  .workout-form input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.sections {
+  display: grid;
+}
+
+.calendar {
+  overflow: hidden;
+}
+
+.calendar th,
+.calendar td {
+  padding: 1.8em 3rem;
+  font-family: "Aguafina Script", cursive;
+  letter-spacing: 2px;
+}
+
+.calendar th {
+  background: #efefef;
+}
+
+.calendar td {
+  text-align: center;
+}
+
+.calendar .today {
+  font-weight: bold;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.calendar .active {
+  background-image: linear-gradient(120deg, #656967 0%, #8fd3f4 100%);
+  color: white;
+  padding: 5px;
+  border-radius: 10%;
+  border: 1px dotted grey;
+}
+
+.month-selector th {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  font-family: "Aguafina Script", cursive;
+  letter-spacing: 4px;
+  color: grey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.month-cell:hover {
+  background: #ededed;
+  cursor: pointer;
+}
+
+.select-month {
+  font-family: "Aguafina Script", cursive;
+  letter-spacing: 8px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.toggle-month {
+  text-align: center !important;
+}
+
+.toggle-month:hover,
+.week-day:hover {
+  cursor: pointer;
+  background: #efefef;
+}
+
+.arrow-icon {
+  padding: 5px 0 0 5px;
+  opacity: 0.5;
+}
+
+.calendar .selected-day {
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.paper {
+  padding: 0.25em 1.5em 1.5em 1.5em;
+  display: "flex";
+  overflow: "auto";
+  flex-direction: "column";
+}
+
+.month-list {
+  transform: translateX(7rem);
+  font-family: "Aguafina Script", cursive;
+}
+
+.date {
+  background: #ededed;
+  width: 25vw;
+  margin-left: 4rem;
+  color: grey;
+  letter-spacing: 6px;
+}
+
+.date h5 {
+  display: grid;
+  transform: translateY(0.3rem);
+  padding: 0.1rem;
+  background: whitesmoke;
+  font-size: 1.2rem;
+  font-family: "Great Vibes", cursive;
+}
+
+.date span {
+  background: white;
+  padding-top: 0.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.calendar {
+  width: 10%;
+}
+
+svg.MuiSvgIcon-root {
+  transition: 250ms ease;
+}
+svg.MuiSvgIcon-root:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 800px) {
+  .calendar th,
+  .calendar td {
+    padding: 0.5rem 0.5rem;
+  }
+  .date {
+    width: 64%;
+    transform: translateX(3.4rem);
+  }
+}
