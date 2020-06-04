@@ -71,7 +71,6 @@ const EditActivity = (props) => {
           labelId="demo-simple-select-label"
           id="select"
           value={newActivity.type}
-          style={{ minWidth: "100%" }}
           name="type"
           onChange={handleChange}
         >
